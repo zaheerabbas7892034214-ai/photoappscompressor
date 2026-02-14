@@ -1,0 +1,38 @@
+# Android
+*.apk binary
+*.aab binary
+*.dex binary
+*.class binary
+*.so binary
+*.aar binary
+
+# Archives
+*.jar binary
+*.zip binary
+*.tar binary
+*.gz binary
+
+# Images
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.gif binary
+*.webp binary
+
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Gradle
+*.gradle text eol=lf
+gradlew text eol=lf
+*.properties text eol=lf
+
+# Kotlin
+*.kt text eol=lf
+*.kts text eol=lf
+
+# XML
+*.xml text eol=lf
+
+# Markdown
+*.md text eol=lf
