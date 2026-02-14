@@ -25,7 +25,7 @@ fun BannerAd(modifier: Modifier = Modifier) {
         modifier = modifier.fillMaxWidth(),
         factory = { context ->
             AdView(context).apply {
-                // Replace with your real Ad Unit ID from AdMob console
+                // Test Ad Unit ID - Replace with your production ID from AdMob console
                 adUnitId = "ca-app-pub-3940256099942544/6300978111"
                 setAdSize(AdSize.BANNER)
                 loadAd(AdRequest.Builder().build())
@@ -42,7 +42,7 @@ class InterstitialAdManager(private val context: Context) {
 
     companion object {
         private const val TAG = "InterstitialAdManager"
-        // Replace with your real Ad Unit ID from AdMob console
+        // Test Ad Unit ID - Replace with your production ID from AdMob console
         private const val AD_UNIT_ID = "ca-app-pub-3940256099942544/1033173712"
     }
 

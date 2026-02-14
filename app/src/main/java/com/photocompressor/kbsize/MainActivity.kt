@@ -212,7 +212,7 @@ fun PhotoCompressorScreen(
     ) {
         // Top App Bar
         TopAppBar(
-            title = { Text("Photo Compressor – KB Size") },
+            title = { Text("Photo Compressor - KB Size") },
             actions = {
                 TextButton(onClick = { billingManager.restorePurchases() }) {
                     Text("Restore Purchases")

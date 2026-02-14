@@ -10,12 +10,13 @@
         android:name=".App"
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
-        android:label="Photo Compressor – KB Size"
+        android:label="Photo Compressor - KB Size"
         android:roundIcon="@drawable/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
 
-        <!-- AdMob App ID (Replace with your real AdMob App ID) -->
+        <!-- Test AdMob App ID - Replace with your production App ID from AdMob console -->
+        <!-- Get your App ID from: https://apps.admob.com/ -->
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
             android:value="ca-app-pub-3940256099942544~3347511713"/>
